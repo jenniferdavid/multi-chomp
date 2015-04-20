@@ -1,4 +1,4 @@
-Trials with CHOMP
+multi-CHOMP
 =================
 
 You need [CMake][], [Eigen][] v3, and [GTK+][] v2. 
