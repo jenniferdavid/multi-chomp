@@ -1,15 +1,15 @@
 Trials with CHOMP
 =================
 
-You need [CMake][], [Eigen][] v3, and [GTK+][] v2. 
-Developed from the source code available at git@github.com:poftwaresatent/trychomp
+You need [CMake][], [Eigen][] v3, and [GTK+][] v2.  Then everything is easy:
 
     git clone https://github.com/jenniferdavid/multi-chomp.git multi-chomp
     mkdir multi-chomp/build
     cd multi-chomp/build
     cmake ..
     make
-    ./multi-chomp
+    ./pp2d
+    ./pprrr2d
 
 As the name implies, this is based on [CHOMP][].
 
