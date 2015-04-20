@@ -98,7 +98,7 @@ endif (GTK2_FOUND)
 # the files added here are in order of implementation!
 
 add_executable (multirobot_movpoint multirobot_movpoint.cpp gfx.cpp)
-target_link_libraries (movpoi ${GTK2_LIBRARIES})
+target_link_libraries (multirobot_movpoint ${GTK2_LIBRARIES})
 
 add_executable (multi-chomp multi-chomp.cpp gfx.cpp)
 target_link_libraries (multi-chomp ${GTK2_LIBRARIES})
